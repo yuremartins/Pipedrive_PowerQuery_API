@@ -1,3 +1,4 @@
+```m
 let
     Fonte = Json.Document(Web.Contents(#"URL PIPEDRIVE"&"/api/v1/deals?api_token="&#"TOKEN PIPEDRIVE",[Query=[api_token=#"TOKEN PIPEDRIVE", limit="1", start="0", get_summary="1"]])),
     Personalizar1 = Record.ToTable(Fonte),
@@ -32,3 +33,4 @@ let
     #"Colunas Removidas" = Table.RemoveColumns(Personalizar17,{"person_hidden", "org_hidden", "3be251a2a4bf24b6adcb48bd8c610176aac5be00", "7b556d4fa67eefcfc8b3d7c6b7b70819c35d2ee6", "value.5", "active_flag.4", "address.1", "owner_id.2", "people_count.1", "name.4", "rotten_time", "next_activity_note", "next_activity_type", "next_activity_duration", "next_activity_subject", "stage_order_nr", "renewal_type", "label", "last_outgoing_mail_time", "participants_count", "undone_activities_count", "done_activities_count", "activities_count", "email_messages_count", "followers_count", "notes_count", "files_count", "visible_to", "lost_reason", "next_activity_id", "next_activity_time", "phone", "email.2", "name.2", "active_flag.2", "value.2", "active_flag.1", "pic_hash.1", "has_pic.1", "email.1", "name.1", "id.2", "value.1", "active_flag", "pic_hash", "has_pic", "id.1"})
 in
     #"Colunas Removidas"
+ ```
