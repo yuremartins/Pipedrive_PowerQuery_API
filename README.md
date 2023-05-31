@@ -1,4 +1,7 @@
-# Projeto com API - Pipedrive integrado ao Excel através do Power Query
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
+<h1 align="center"> Projeto com API - Pipedrive integrado ao Excel através do Power Query </h1>
+
 Este projeto tem como objetivo criar uma integração eficiente entre o Pipedrive, um popular CRM, e o Power Query, uma poderosa ferramenta de consulta e transformação de dados disponível no Excel e no Power BI.
 
 Existem diferentes formas de extrair dados de um CRM e enviá-los para uma ferramenta de Business Intelligence, como o Power BI. No entanto, fazer isso manualmente através de exportação em CSV pode ser trabalhoso e demorado. Além disso, a utilização de conectores de terceiros pode ser custosa e limitante.
