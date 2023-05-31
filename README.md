@@ -92,3 +92,4 @@ Pronto, agora temos uma tabela com todos os registros de negócios paginados. Pa
 
 
 ## Referências 
+https://www.linkedin.com/pulse/conectando-o-pipedrive-ao-power-bi-rodolfo-matte%3FtrackingId=QhvJdrtiS9yyzZxeKx6oJA%253D%253D/?trackingId=QhvJdrtiS9yyzZxeKx6oJA%3D%3D
