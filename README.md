@@ -6,7 +6,7 @@ Este projeto tem como objetivo criar uma integração eficiente entre o Pipedriv
 
 Existem diferentes formas de extrair dados de um CRM e enviá-los para uma ferramenta de Business Intelligence, como o Power BI. No entanto, fazer isso manualmente através de exportação em CSV pode ser trabalhoso e demorado. Além disso, a utilização de conectores de terceiros pode ser custosa e limitante.
 
-Neste projeto, vamos explorar a integração do Pipedrive com o Power Query através da API. Utilizando a linguagem M do Power Query, iremos extrair dados do Pipedrive e carregá-los no Power BI, permitindo a criação de relatórios e painéis interativos.
+Neste projeto, vamos explorar a integração do Pipedrive com o Power Query através da API. Utilizando a linguagem M do Power Query, iremos extrair dados do Pipedrive e carregá-los no Excel, permitindo a criação de relatórios.
 
 As principais funcionalidades desse projeto incluem:
 
