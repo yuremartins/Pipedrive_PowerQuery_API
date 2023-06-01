@@ -49,7 +49,6 @@ Para obter o token de acesso e a URL do Pipedrive, siga as instruções abaixo:
 - Certifique-se de que você tenha acesso como administrador da empresa.
 - Copie o código do token fornecido e insira-o no valor do parâmetro que você criou para o token no Power BI.
 - Para obter a URL da sua empresa, copie o trecho semelhante ao exemplo a seguir: https://suaempresa.pipedrive.com. Insira essa URL como valor no parâmetro criado para a URL no Power BI.
-- 
 ### Conferindo a Documentação da API do Pipedrive:
 Conferindo a Documentação da API do Pipedrive:
 Antes de prosseguir para a etapa de obtenção dos dados da API, é recomendado consultar a documentação oficial da API do Pipedrive. Isso permitirá que você tenha uma compreensão mais abrangente dos endpoints disponíveis, bem como os dados que podem ser extraídos de cada um deles. Além disso, a documentação fornecerá informações sobre as especificações das consultas (queries) que podem ser inseridas no seu script. Veja as etapas a seguir:
