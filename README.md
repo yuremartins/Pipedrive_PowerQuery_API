@@ -69,14 +69,14 @@ Os "Deals" representam vendas em andamento, perdidas ou concluídas para uma org
 As "Organizations" são empresas e outros tipos de organizações com as quais você realiza negócios. Pessoas podem ser associadas a organizações, de modo que cada organização possa conter uma ou várias pessoas.
 
 ## Script em Linguagem M
-Acesse o Power BI e clique no botão "Nova Fonte" para começar a criar seu script.
+Acesse o Excel e clique no botão "Nova Fonte" para começar a criar seu script.
 - Selecione a opção "Consulta Nula" para iniciar a construção do script.
 - Clique no botão "Editor Avançado" para acessar o editor de script e começar a trabalhar nele.
 - Vamos simular uma requisição GET para o endpoint "Deals" da API.
 - O endpoint "Deals" fornece todas as informações relacionadas à entidade "Negócios" no Pipedrive.
 - Essas informações serão inseridas dentro do Pipedrive e podem ser acessadas por meio dessa requisição.
-- Ao criar o script, você terá a capacidade de extrair e manipular esses dados para análises e visualizações no Power BI.
-Com essas etapas, você estará pronto para começar a construir seu script no Power BI e explorar os dados do Pipedrive por meio da API.
+- Ao criar o script, você terá a capacidade de extrair e manipular esses dados para análises e visualizações.
+Com essas etapas, você estará pronto para começar a construir seu script e explorar os dados do Pipedrive por meio da API.
 
 Vamos começar inserindo a função Json.Document. Essa função retorna o conteúdo de um documento JSON, que é o formato que a API nos entrega a informação. Em seguida, vamos chamar a função Web.Contents. Ela retorna o conteúdo da URL do Pipedrive que vamos inserir.
 
