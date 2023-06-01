@@ -1,5 +1,5 @@
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
+![license](https://img.shields.io/github/license/yuremartins/Pipedrive_PowerQuery_API?style=for-the-badge)
 <h1 align="center"> Projeto com API - Pipedrive integrado ao Excel através do Power Query </h1>
 
 Este projeto tem como objetivo criar uma integração eficiente entre o Pipedrive, um popular CRM, e o Power Query, uma poderosa ferramenta de consulta e transformação de dados disponível no Excel e no Power BI.
