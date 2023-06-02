@@ -98,3 +98,8 @@ Pronto, agora temos uma tabela com todos os registros de negócios paginados. Pa
 
 ## Referências 
 https://www.linkedin.com/pulse/conectando-o-pipedrive-ao-power-bi-rodolfo-matte%3FtrackingId=QhvJdrtiS9yyzZxeKx6oJA%253D%253D/?trackingId=QhvJdrtiS9yyzZxeKx6oJA%3D%3D
+
+## Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/120994376?v=4" width=115><br><sub>Yure Martins</sub>](https://github.com/yuremartins) |
+| :---: | 
