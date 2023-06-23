@@ -1,9 +1,15 @@
-# Projeto com API - Pipedrive integrado ao Excel através do Power Query
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![license](https://img.shields.io/github/license/yuremartins/Pipedrive_PowerQuery_API?style=for-the-badge)
+
+![image](https://github.com/yuremartins/Pipedrive_PowerQuery_API/assets/120994376/ac1ffb27-91fb-4f0f-ac8c-83a8601ab9d9)
+
+<h1 align="center"> Projeto com API - Pipedrive integrado ao Excel através do Power Query </h1>
+
 Este projeto tem como objetivo criar uma integração eficiente entre o Pipedrive, um popular CRM, e o Power Query, uma poderosa ferramenta de consulta e transformação de dados disponível no Excel e no Power BI.
 
 Existem diferentes formas de extrair dados de um CRM e enviá-los para uma ferramenta de Business Intelligence, como o Power BI. No entanto, fazer isso manualmente através de exportação em CSV pode ser trabalhoso e demorado. Além disso, a utilização de conectores de terceiros pode ser custosa e limitante.
 
-Neste projeto, vamos explorar a integração do Pipedrive com o Power Query através da API. Utilizando a linguagem M do Power Query, iremos extrair dados do Pipedrive e carregá-los no Power BI, permitindo a criação de relatórios e painéis interativos.
+Neste projeto, vamos explorar a integração do Pipedrive com o Power Query através da API. Utilizando a linguagem M do Power Query, iremos extrair dados do Pipedrive e carregá-los no Excel, permitindo a criação de relatórios.
 
 As principais funcionalidades desse projeto incluem:
 
@@ -46,7 +52,6 @@ Para obter o token de acesso e a URL do Pipedrive, siga as instruções abaixo:
 - Certifique-se de que você tenha acesso como administrador da empresa.
 - Copie o código do token fornecido e insira-o no valor do parâmetro que você criou para o token no Power BI.
 - Para obter a URL da sua empresa, copie o trecho semelhante ao exemplo a seguir: https://suaempresa.pipedrive.com. Insira essa URL como valor no parâmetro criado para a URL no Power BI.
-- 
 ### Conferindo a Documentação da API do Pipedrive:
 Conferindo a Documentação da API do Pipedrive:
 Antes de prosseguir para a etapa de obtenção dos dados da API, é recomendado consultar a documentação oficial da API do Pipedrive. Isso permitirá que você tenha uma compreensão mais abrangente dos endpoints disponíveis, bem como os dados que podem ser extraídos de cada um deles. Além disso, a documentação fornecerá informações sobre as especificações das consultas (queries) que podem ser inseridas no seu script. Veja as etapas a seguir:
@@ -66,14 +71,14 @@ Os "Deals" representam vendas em andamento, perdidas ou concluídas para uma org
 As "Organizations" são empresas e outros tipos de organizações com as quais você realiza negócios. Pessoas podem ser associadas a organizações, de modo que cada organização possa conter uma ou várias pessoas.
 
 ## Script em Linguagem M
-Acesse o Power BI e clique no botão "Nova Fonte" para começar a criar seu script.
+Acesse o Excel e clique no botão "Nova Fonte" para começar a criar seu script.
 - Selecione a opção "Consulta Nula" para iniciar a construção do script.
 - Clique no botão "Editor Avançado" para acessar o editor de script e começar a trabalhar nele.
 - Vamos simular uma requisição GET para o endpoint "Deals" da API.
 - O endpoint "Deals" fornece todas as informações relacionadas à entidade "Negócios" no Pipedrive.
 - Essas informações serão inseridas dentro do Pipedrive e podem ser acessadas por meio dessa requisição.
-- Ao criar o script, você terá a capacidade de extrair e manipular esses dados para análises e visualizações no Power BI.
-Com essas etapas, você estará pronto para começar a construir seu script no Power BI e explorar os dados do Pipedrive por meio da API.
+- Ao criar o script, você terá a capacidade de extrair e manipular esses dados para análises e visualizações.
+Com essas etapas, você estará pronto para começar a construir seu script e explorar os dados do Pipedrive por meio da API.
 
 Vamos começar inserindo a função Json.Document. Essa função retorna o conteúdo de um documento JSON, que é o formato que a API nos entrega a informação. Em seguida, vamos chamar a função Web.Contents. Ela retorna o conteúdo da URL do Pipedrive que vamos inserir.
 
@@ -92,3 +97,9 @@ Pronto, agora temos uma tabela com todos os registros de negócios paginados. Pa
 
 
 ## Referências 
+https://www.linkedin.com/pulse/conectando-o-pipedrive-ao-power-bi-rodolfo-matte%3FtrackingId=QhvJdrtiS9yyzZxeKx6oJA%253D%253D/?trackingId=QhvJdrtiS9yyzZxeKx6oJA%3D%3D
+
+## Autores
+
+| [<img src="https://avatars.githubusercontent.com/u/120994376?v=4" width=115><br><sub>Yure Martins</sub>](https://github.com/yuremartins) |
+| :---: | 
