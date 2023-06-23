@@ -1,3 +1,4 @@
+``` M
 let
     Fonte = Json.Document(Web.Contents(#"URL PIPEDRIVE"&"/api/v1/deals?api_token="&#"TOKEN PIPEDRIVE",[Query=[api_token=#"TOKEN PIPEDRIVE", limit="1", start="0", get_summary="1"]])),
     #"Converted to Table Record" = Record.ToTable(Fonte),
@@ -30,4 +31,9 @@ let
     Personalizar17 = Table.ReplaceValue(Personalizar16,"148","Cross Selling",Replacer.ReplaceValue,{"tipo_venda"}),
     #"Colunas Removidas1" = Table.RemoveColumns(Personalizar17,{"Column1", "id.1", "has_pic", "pic_hash", "active_flag", "value.1", "id.2", "name.1", "email.1", "has_pic.1", "pic_hash.1", "active_flag.1", "value.2", "active_flag.2", "name.2", "email.2", "phone", "owner_id", "value.3", "people_count", "owner_id.1", "address", "active_flag.3", "cc_email.1", "stage_id", "moeda", "stage_change_time", "active", "deleted", "probability", "next_activity_date", "next_activity_time", "next_activity_id", "last_activity_id", "last_activity_date", "visible_to", "pipeline_id", "first_won_time", "files_count", "notes_count", "followers_count", "email_messages_count", "activities_count", "done_activities_count", "undone_activities_count", "participants_count", "expected_close_date", "last_incoming_mail_time", "last_outgoing_mail_time", "label", "renewal_type", "stage_order_nr", "person_name", "next_activity_subject", "next_activity_type", "next_activity_duration", "next_activity_note", "formatted_value", "weighted_value", "formatted_weighted_value", "weighted_value_currency", "rotten_time", "cc_email", "name.4", "people_count.1", "owner_id.2", "address.1", "active_flag.4", "cc_email.2", "value.5", "Concorrente", "7b556d4fa67eefcfc8b3d7c6b7b70819c35d2ee6", "b62b69fccbe3ced99a1dab6eb13ab634c41cb55d_currency", "3be251a2a4bf24b6adcb48bd8c610176aac5be00", "placas", "dt_inicio_contrato", "org_hidden", "person_hidden", "CIdade de Atendimento", "name", "email", "name.3"})
 in
+<<<<<<< HEAD
     #"Colunas Removidas1"
+=======
+    #"Colunas Removidas"
+ ```
+>>>>>>> 75bbee8521ab4f64d135f55461949a65d4b318dd
