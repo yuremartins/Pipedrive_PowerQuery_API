@@ -60,6 +60,7 @@ Acesse a documentação oficial da API do Pipedrive e familiarize-se com os endp
 Verifique os detalhes do endpoint "Deals" (negócios) para compreender as especificações das consultas e a resposta esperada.
 Essas etapas iniciais são cruciais para estabelecer a base da integração entre o Power Query e a API do Pipedrive. Uma vez que você tenha configurado corretamente os parâmetros e obtido o token e a URL do Pipedrive, estará pronto para prosseguir para as próximas etapas da documentação.
 
+[Documentação](https://developers.pipedrive.com/docs/api/v1)
 ## Endpoints
 Na integração entre o Power Query e a API do Pipedrive, é fundamental entender o conceito de endpoints. Os endpoints são pontos de acesso na API que fornecem diferentes conjuntos de dados ou funcionalidades específicas. Cada endpoint permite interagir com determinados recursos do Pipedrive, como negócios, organizações, pessoas, atividades, entre outros.
 
