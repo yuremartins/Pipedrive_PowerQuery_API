@@ -37,9 +37,9 @@ A partir deste ponto, podemos continuar com os próximos passos do projeto.
 
 ## Parâmetros
 ### Criação dos Paramêtros:
-O primeiro passo é criar dois parâmetros no Power BI que serão utilizados como referência para suas consultas. Essa etapa é importante para garantir a flexibilidade e facilidade de atualização, caso a URL ou o token de acesso do Pipedrive sejam alterados. Siga as etapas abaixo:
+O primeiro passo é criar dois parâmetros no Excel que serão utilizados como referência para suas consultas. Essa etapa é importante para garantir a flexibilidade e facilidade de atualização, caso a URL ou o token de acesso do Pipedrive sejam alterados. Siga as etapas abaixo:
 
-- Acesse o ambiente de transformação de dados no Power BI e vá para "Gerenciar Parâmetros".
+- Acesse o ambiente de transformação de dados no Excel e vá para "Gerenciar Parâmetros".
 - Crie um novo parâmetro para a URL da sua conta no Pipedrive e outro parâmetro para o token do Pipedrive. Ambos devem ser do tipo texto.
 
 ### Obtendo o Token e URL do Pipedrive:
