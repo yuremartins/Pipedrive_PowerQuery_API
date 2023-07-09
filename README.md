@@ -37,9 +37,9 @@ A partir deste ponto, podemos continuar com os próximos passos do projeto.
 
 ## Parâmetros
 ### Criação dos Paramêtros:
-O primeiro passo é criar dois parâmetros no Power BI que serão utilizados como referência para suas consultas. Essa etapa é importante para garantir a flexibilidade e facilidade de atualização, caso a URL ou o token de acesso do Pipedrive sejam alterados. Siga as etapas abaixo:
+O primeiro passo é criar dois parâmetros no Excel que serão utilizados como referência para suas consultas. Essa etapa é importante para garantir a flexibilidade e facilidade de atualização, caso a URL ou o token de acesso do Pipedrive sejam alterados. Siga as etapas abaixo:
 
-- Acesse o ambiente de transformação de dados no Power BI e vá para "Gerenciar Parâmetros".
+- Acesse o ambiente de transformação de dados no Excel e vá para "Gerenciar Parâmetros".
 - Crie um novo parâmetro para a URL da sua conta no Pipedrive e outro parâmetro para o token do Pipedrive. Ambos devem ser do tipo texto.
 
 ### Obtendo o Token e URL do Pipedrive:
@@ -60,6 +60,7 @@ Acesse a documentação oficial da API do Pipedrive e familiarize-se com os endp
 Verifique os detalhes do endpoint "Deals" (negócios) para compreender as especificações das consultas e a resposta esperada.
 Essas etapas iniciais são cruciais para estabelecer a base da integração entre o Power Query e a API do Pipedrive. Uma vez que você tenha configurado corretamente os parâmetros e obtido o token e a URL do Pipedrive, estará pronto para prosseguir para as próximas etapas da documentação.
 
+[Documentação](https://developers.pipedrive.com/docs/api/v1)
 ## Endpoints
 Na integração entre o Power Query e a API do Pipedrive, é fundamental entender o conceito de endpoints. Os endpoints são pontos de acesso na API que fornecem diferentes conjuntos de dados ou funcionalidades específicas. Cada endpoint permite interagir com determinados recursos do Pipedrive, como negócios, organizações, pessoas, atividades, entre outros.
 
