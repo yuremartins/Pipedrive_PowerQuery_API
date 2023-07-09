@@ -100,6 +100,12 @@ Pronto, agora temos uma tabela com todos os registros de negócios paginados. Pa
 ## Referências 
 https://www.linkedin.com/pulse/conectando-o-pipedrive-ao-power-bi-rodolfo-matte%3FtrackingId=QhvJdrtiS9yyzZxeKx6oJA%253D%253D/?trackingId=QhvJdrtiS9yyzZxeKx6oJA%3D%3D
 
+## Relatório no Power BI
+![Dash](https://github.com/yuremartins/Pipedrive_PowerQuery_API/blob/main/Dashboard/Relat%C3%B3rio%20Comercial%20-%20(Neg%C3%B3cios%20Ganhos).png?raw=true)
+![Dash2](https://github.com/yuremartins/Pipedrive_PowerQuery_API/blob/main/Dashboard/Relat%C3%B3rio%20Comercial%20-%20Neg%C3%B3cios%20Perdidos.png?raw=true)
+
+> Dados reais ocultados, apenas para fins de demonstração do dashboard.
+
 ## Autores
 
 | [<img src="https://avatars.githubusercontent.com/u/120994376?v=4" width=115><br><sub>Yure Martins</sub>](https://github.com/yuremartins) |
