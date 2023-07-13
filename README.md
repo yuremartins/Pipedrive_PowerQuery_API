@@ -30,7 +30,7 @@ Uma das vantagens do Power Query é a capacidade de combinar múltiplos endpoint
 
 Este projeto é especialmente útil para empresas que desejam integrar seus dados do Pipedrive ao Power BI de forma automatizada e personalizada. Ao utilizar a API do Pipedrive em conjunto com o Power Query, você terá acesso completo ao banco de dados do seu CRM e poderá explorar as informações de maneira flexível e eficiente.
 
-Ao finalizar este projeto, você estará apto a conectar o Pipedrive ao Power BI de forma automatizada, permitindo análises avançadas e tomadas de decisão embasadas em dados atualizados e precisos."
+Ao finalizar este projeto, você estará apto a conectar o Pipedrive ao Excel ou o Power BI de forma automatizada, permitindo análises avançadas e tomadas de decisão embasadas em dados atualizados e precisos."
 
 A partir deste ponto, podemos continuar com os próximos passos do projeto.
 
